@@ -16,7 +16,7 @@ gulp.task('clean', function(cb) {
 });
 
 // Translate from es6 to pure javascript
-gulp.task('babel', function() {
+gulp.task('babel', ['clean'], function() {
     return gulp.src(paths.scripts)
         .pipe(sourcemaps.init({loadMaps: true}))
         .pipe(babel())
