@@ -1,6 +1,5 @@
 const babelify = require('babelify');
 const browserify = require('browserify');
-const buffer = require('vinyl-buffer');
 const del = require('del');
 const gulp = require('gulp')
 const source = require('vinyl-source-stream');
