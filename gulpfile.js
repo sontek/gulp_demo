@@ -1,11 +1,11 @@
-const babel = require('gulp-babel');
+const babelify = require('babelify');
 const browserify = require('browserify');
 const buffer = require('vinyl-buffer');
 const del = require('del');
 const gulp = require('gulp')
 const source = require('vinyl-source-stream');
 const sourcemaps = require('gulp-sourcemaps');
-
+const fs = require("fs");
 
 var paths = {
     scripts: ['src/*.jsx']
@@ -24,17 +24,13 @@ gulp.task('babel', ['clean'], function() {
         .pipe(gulp.dest('./lib'));
 });
 
-gulp.task('browserify', ['clean', 'babel'], function() {
+gulp.task('browserify', ['clean'], function() {
     // Minify and copy all JS scripts with sourcemaps
-    return browserify('lib/index.js', {debug: true})
+    return browserify('src/index.jsx', {debug: true})
+        .transform(babelify)
         .bundle()
-        .pipe(source('bundle.js'))
-        .pipe(buffer())
-
-        // start tracking sourcemaps
         .pipe(sourcemaps.init({loadMaps: true}))
-
-        // write out the sourcemaps
+        .pipe(source('bundle.js'))
         .pipe(sourcemaps.write('.'))
 
         // write out the build
