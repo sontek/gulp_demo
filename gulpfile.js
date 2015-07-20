@@ -1,44 +1,28 @@
-const babel = require('gulp-babel');
+const babelify = require('babelify');
 const browserify = require('browserify');
-const buffer = require('vinyl-buffer');
 const del = require('del');
 const gulp = require('gulp')
 const source = require('vinyl-source-stream');
 const sourcemaps = require('gulp-sourcemaps');
 
-
-var paths = {
-    scripts: ['src/*.jsx']
-}
-
 gulp.task('clean', function(cb) {
     del(['./lib', './dist'], cb);
 });
 
-// Translate from es6 to pure javascript
-gulp.task('babel', ['clean'], function() {
-    return gulp.src(paths.scripts)
-        .pipe(sourcemaps.init({loadMaps: true}))
-        .pipe(babel())
-        .pipe(sourcemaps.write('.'))
-        .pipe(gulp.dest('./lib'));
-});
-
-gulp.task('browserify', ['clean', 'babel'], function() {
+gulp.task('browserify', ['clean'], function() {
     // Minify and copy all JS scripts with sourcemaps
-    return browserify('lib/index.js', {debug: true})
-        .bundle()
-        .pipe(source('bundle.js'))
-        .pipe(buffer())
+    return browserify({
+        entries: 'src/index.jsx',
+        extensions: ['.js', '.jsx'],
+        debug: true
+    })
 
-        // start tracking sourcemaps
-        .pipe(sourcemaps.init({loadMaps: true}))
+   .transform(babelify)
+   .bundle()
+   .pipe(source('bundle.js'))
 
-        // write out the sourcemaps
-        .pipe(sourcemaps.write('.'))
-
-        // write out the build
-        .pipe(gulp.dest('./dist'))
+    // write out the build
+    .pipe(gulp.dest('./dist'))
 
 });
 
