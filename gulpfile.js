@@ -5,11 +5,6 @@ const del = require('del');
 const gulp = require('gulp')
 const source = require('vinyl-source-stream');
 const sourcemaps = require('gulp-sourcemaps');
-const fs = require("fs");
-
-var paths = {
-    scripts: ['src/*.jsx']
-}
 
 gulp.task('clean', function(cb) {
     del(['./lib', './dist'], cb);
