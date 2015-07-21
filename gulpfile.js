@@ -6,7 +6,7 @@ const babelify   = require('babelify')
     , path       = require('path')
     , source     = require('vinyl-source-stream')
     , sourcemaps = require('gulp-sourcemaps')
-    , exorcist = require('exorcist');
+    , exorcist   = require('exorcist');
 
 const dist_dir = path.join(__dirname, 'dist/')
     , map_file = path.join(dist_dir, 'bundle.js.map');
