@@ -6,6 +6,7 @@ const babelify   = require('babelify')
     , path       = require('path')
     , source     = require('vinyl-source-stream')
     , sourcemaps = require('gulp-sourcemaps')
+    , uglify     = require('uglifyify')
     , exorcist   = require('exorcist');
 
 const dist_dir = path.join(__dirname, 'dist/')
@@ -29,6 +30,7 @@ gulp.task('browserify', ['clean'], function() {
     })
 
    .transform(babelify)
+   .transform({global: true}, uglify)
    .bundle()
    .pipe(exorcist(map_file))
    .pipe(source('bundle.js'))
