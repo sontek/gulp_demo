@@ -30,7 +30,7 @@ gulp.task('browserify', ['clean'], function() {
     })
 
    .transform(babelify)
-   .transform(uglify)
+   .transform({global: true}, uglify)
    .bundle()
    .pipe(exorcist(map_file))
    .pipe(source('bundle.js'))
