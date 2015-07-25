@@ -3,6 +3,6 @@
 React = require("react")
 HelloWorld = React.createClass
     render: ->
-          return <p>Hello, world!</p>;
+        return <p>Hello, world!</p>
 
-module.exports = HelloWorld;
+module.exports = HelloWorld

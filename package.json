@@ -9,12 +9,12 @@
         "coffee-script": "1.9.3",
         "coffee-reactify": "4.0.0",
         "del": "1.2.0",
-        "eslint": "0.24.1",
-        "eslint-plugin-react": "3.0.0",
+        "coffeelint": "1.10.1",
+        "coffee-react-transform": "3.2.0",
         "exorcist": "0.4.0",
         "gulp": "3.9.0",
+        "gulp-coffeelint": "0.5.0",
         "gulp-eslint": "0.15.0",
-        "gulp-sourcemaps": "1.5.2",
         "uglifyify": "3.0.1",
         "vinyl-source-stream": "1.1.0"
     }

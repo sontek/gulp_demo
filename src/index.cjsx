@@ -5,4 +5,4 @@ HelloWorld = require("./hello-world")
 React.render(
     <HelloWorld />,
     document.body
-);
+)

@@ -5,8 +5,7 @@ del         = require "del"
 exorcist    = require "exorcist"
 fs          = require "fs"
 gulp        = require "gulp"
-eslint      = require "gulp-eslint"
-sourcemaps  = require "gulp-sourcemaps"
+coffeelint  = require "gulp-coffeelint"
 path        = require "path"
 uglify      = require "uglifyify"
 source      = require "vinyl-source-stream"
@@ -21,10 +20,9 @@ gulp.task "clean", ->
 
 # check code quality of our scripts
 gulp.task "lint", ->
-    gulp.src "src/*.jsx"
-        .pipe eslint({useEslintrc: true})
-        .pipe eslint.format()
-        .pipe eslint.failOnError()
+    gulp.src "src/*.cjsx"
+        .pipe coffeelint()
+        .pipe coffeelint.reporter()
 
 
 # compile the code down to js!
