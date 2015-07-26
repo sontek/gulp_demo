@@ -29,19 +29,22 @@ gulp.task('jslint', () => {
         .pipe(eslint.failOnError());
 });
 
-gulp.task('jstest', ['browserify'], () => {
-    browserify({
-        entries: `./tests/test_one.js`,
+gulp.task('jstest_bundle', () => {
+    return browserify({
+        entries: [
+            `./tests/test_one.js`,
+        ],
         extensions: ['.js', '.jsx']
     })
         .transform(babelify)
         .bundle()
-        .pipe(source('test_one.js'))
+        .pipe(source('test_bundle.js'))
         .pipe(gulp.dest(paths.test_dist));
-
-    qunit('./tests/test_runner.html', {verbose: true});
 });
 
+gulp.task('jstest', ['jstest_bundle'], () => {
+    qunit('./tests/test_runner.html', {verbose: true});
+});
 
 gulp.task('browserify', ['clean'], () => {
     // exorcist doesn't write the file if the directory

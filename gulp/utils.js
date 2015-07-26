@@ -3,5 +3,5 @@ import paths from './settings';
 import del from 'del';
 
 gulp.task('clean', () => {
-    del([paths.dist]);
+    del([paths.dist, paths.test_dist]);
 });
