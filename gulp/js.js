@@ -7,7 +7,6 @@ import path from 'path';
 import source from 'vinyl-source-stream';
 import uglify from 'uglifyify';
 import exorcist from 'exorcist';
-import tap_spec from 'tap-spec';
 import qunit from 'node-qunit-phantomjs';
 import paths from './settings.js';
 
@@ -43,7 +42,7 @@ gulp.task('jstest_bundle', () => {
 });
 
 gulp.task('jstest', ['jstest_bundle'], () => {
-    qunit('./tests/test_runner.html', {verbose: true});
+    qunit('./tests/test_runner.html', {'verbose': true});
 });
 
 gulp.task('browserify', ['clean'], () => {

@@ -17,6 +17,8 @@
         , "gulp": "3.9.0"
         , "gulp-eslint": "0.15.0"
         , "node-qunit-phantomjs": "1.2.1"
+        , "qunit": "0.7.6"
+        , "qunit-cli": "0.2.0"
         , "uglifyify": "3.0.1"
         , "vinyl-source-stream": "1.1.0"
     }
