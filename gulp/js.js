@@ -7,9 +7,10 @@ import path from 'path';
 import source from 'vinyl-source-stream';
 import uglify from 'uglifyify';
 import exorcist from 'exorcist';
-import paths from './settings.js';
-import tape from 'gulp-tape';
 import tap_spec from 'tap-spec';
+import qunit from 'node-qunit-phantomjs';
+import paths from './settings.js';
+
 
 const map_file = path.join(paths.dist, 'bundle.js.map');
 
@@ -29,8 +30,16 @@ gulp.task('jslint', () => {
 });
 
 gulp.task('jstest', ['browserify'], () => {
-    return gulp.src('tests/*.js')
-        .pipe(tape());
+    browserify({
+        entries: `./tests/test_one.js`,
+        extensions: ['.js', '.jsx']
+    })
+        .transform(babelify)
+        .bundle()
+        .pipe(source('test_one.js'))
+        .pipe(gulp.dest(paths.test_dist));
+
+    qunit('./tests/test_runner.html', {verbose: true});
 });
 
 

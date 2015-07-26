@@ -16,9 +16,7 @@
         , "faucet": "0.0.1"
         , "gulp": "3.9.0"
         , "gulp-eslint": "0.15.0"
-        , "gulp-tape": "0.0.1"
-        , "tape": "4.0.1"
-        , "tap-spec": "4.0.2"
+        , "node-qunit-phantomjs": "1.2.1"
         , "uglifyify": "3.0.1"
         , "vinyl-source-stream": "1.1.0"
     }
