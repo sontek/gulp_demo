@@ -3,4 +3,5 @@ lib/
 dist/
 coverage/
 .idea/
+npm-debug.log
 *.map
