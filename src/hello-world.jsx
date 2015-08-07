@@ -4,7 +4,7 @@ import React from "react";
 
 class HelloWorld extends React.Component {
       render() {
-          return <div>Hello, world!</div>;
+          return <p>Hello, world!</p>;
       }
 }
 

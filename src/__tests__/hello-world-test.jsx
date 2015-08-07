@@ -9,7 +9,7 @@ describe('HelloWorld', function() {
       <HelloWorld />
       //React.createElement(HelloWorld)
     );
-    var div = TestUtils.findRenderedDOMComponentWithTag(main, 'div');
+    var div = TestUtils.findRenderedDOMComponentWithTag(main, 'p');
     expect(React.findDOMNode(main).textContent).toEqual('Hello, world!');
   });
 });
