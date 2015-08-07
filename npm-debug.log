@@ -1,0 +1,1069 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.32
+4 warn package.json gulp_starter@0.0.0 No repository field.
+5 verbose readDependencies using package.json deps
+6 verbose install where, deps [ '/Users/benl/proj/web/gulp_demo',
+6 verbose install   [ 'react',
+6 verbose install     'babel',
+6 verbose install     'babel-core',
+6 verbose install     'babelify',
+6 verbose install     'browserify',
+6 verbose install     'del',
+6 verbose install     'eslint',
+6 verbose install     'eslint-plugin-react',
+6 verbose install     'exorcist',
+6 verbose install     'gulp',
+6 verbose install     'gulp-babel',
+6 verbose install     'gulp-eslint',
+6 verbose install     'gulp-sourcemaps',
+6 verbose install     'uglifyify',
+6 verbose install     'vinyl-source-stream' ] ]
+7 info preinstall gulp_starter@0.0.0
+8 verbose readDependencies using package.json deps
+9 verbose cache add [ 'react@0.13.3', null ]
+10 verbose cache add name=undefined spec="react@0.13.3" args=["react@0.13.3",null]
+11 verbose parsed url { protocol: null,
+11 verbose parsed url   slashes: null,
+11 verbose parsed url   auth: null,
+11 verbose parsed url   host: null,
+11 verbose parsed url   port: null,
+11 verbose parsed url   hostname: null,
+11 verbose parsed url   hash: null,
+11 verbose parsed url   search: null,
+11 verbose parsed url   query: null,
+11 verbose parsed url   pathname: 'react@0.13.3',
+11 verbose parsed url   path: 'react@0.13.3',
+11 verbose parsed url   href: 'react@0.13.3' }
+12 verbose cache add [ 'babel@5.8.5', null ]
+13 verbose cache add name=undefined spec="babel@5.8.5" args=["babel@5.8.5",null]
+14 verbose parsed url { protocol: null,
+14 verbose parsed url   slashes: null,
+14 verbose parsed url   auth: null,
+14 verbose parsed url   host: null,
+14 verbose parsed url   port: null,
+14 verbose parsed url   hostname: null,
+14 verbose parsed url   hash: null,
+14 verbose parsed url   search: null,
+14 verbose parsed url   query: null,
+14 verbose parsed url   pathname: 'babel@5.8.5',
+14 verbose parsed url   path: 'babel@5.8.5',
+14 verbose parsed url   href: 'babel@5.8.5' }
+15 verbose cache add [ 'babel-core@5.8.5', null ]
+16 verbose cache add name=undefined spec="babel-core@5.8.5" args=["babel-core@5.8.5",null]
+17 verbose parsed url { protocol: null,
+17 verbose parsed url   slashes: null,
+17 verbose parsed url   auth: null,
+17 verbose parsed url   host: null,
+17 verbose parsed url   port: null,
+17 verbose parsed url   hostname: null,
+17 verbose parsed url   hash: null,
+17 verbose parsed url   search: null,
+17 verbose parsed url   query: null,
+17 verbose parsed url   pathname: 'babel-core@5.8.5',
+17 verbose parsed url   path: 'babel-core@5.8.5',
+17 verbose parsed url   href: 'babel-core@5.8.5' }
+18 verbose cache add [ 'babelify@6.1.3', null ]
+19 verbose cache add name=undefined spec="babelify@6.1.3" args=["babelify@6.1.3",null]
+20 verbose parsed url { protocol: null,
+20 verbose parsed url   slashes: null,
+20 verbose parsed url   auth: null,
+20 verbose parsed url   host: null,
+20 verbose parsed url   port: null,
+20 verbose parsed url   hostname: null,
+20 verbose parsed url   hash: null,
+20 verbose parsed url   search: null,
+20 verbose parsed url   query: null,
+20 verbose parsed url   pathname: 'babelify@6.1.3',
+20 verbose parsed url   path: 'babelify@6.1.3',
+20 verbose parsed url   href: 'babelify@6.1.3' }
+21 verbose cache add name="react" spec="0.13.3" args=["react","0.13.3"]
+22 verbose parsed url { protocol: null,
+22 verbose parsed url   slashes: null,
+22 verbose parsed url   auth: null,
+22 verbose parsed url   host: null,
+22 verbose parsed url   port: null,
+22 verbose parsed url   hostname: null,
+22 verbose parsed url   hash: null,
+22 verbose parsed url   search: null,
+22 verbose parsed url   query: null,
+22 verbose parsed url   pathname: '0.13.3',
+22 verbose parsed url   path: '0.13.3',
+22 verbose parsed url   href: '0.13.3' }
+23 verbose addNamed [ 'react', '0.13.3' ]
+24 verbose addNamed [ '0.13.3', '0.13.3' ]
+25 verbose cache add name="babel" spec="5.8.5" args=["babel","5.8.5"]
+26 verbose parsed url { protocol: null,
+26 verbose parsed url   slashes: null,
+26 verbose parsed url   auth: null,
+26 verbose parsed url   host: null,
+26 verbose parsed url   port: null,
+26 verbose parsed url   hostname: null,
+26 verbose parsed url   hash: null,
+26 verbose parsed url   search: null,
+26 verbose parsed url   query: null,
+26 verbose parsed url   pathname: '5.8.5',
+26 verbose parsed url   path: '5.8.5',
+26 verbose parsed url   href: '5.8.5' }
+27 verbose addNamed [ 'babel', '5.8.5' ]
+28 verbose addNamed [ '5.8.5', '5.8.5' ]
+29 verbose cache add name="babel-core" spec="5.8.5" args=["babel-core","5.8.5"]
+30 verbose parsed url { protocol: null,
+30 verbose parsed url   slashes: null,
+30 verbose parsed url   auth: null,
+30 verbose parsed url   host: null,
+30 verbose parsed url   port: null,
+30 verbose parsed url   hostname: null,
+30 verbose parsed url   hash: null,
+30 verbose parsed url   search: null,
+30 verbose parsed url   query: null,
+30 verbose parsed url   pathname: '5.8.5',
+30 verbose parsed url   path: '5.8.5',
+30 verbose parsed url   href: '5.8.5' }
+31 verbose addNamed [ 'babel-core', '5.8.5' ]
+32 verbose addNamed [ '5.8.5', '5.8.5' ]
+33 verbose cache add [ 'browserify@11.0.0', null ]
+34 verbose cache add name=undefined spec="browserify@11.0.0" args=["browserify@11.0.0",null]
+35 verbose parsed url { protocol: null,
+35 verbose parsed url   slashes: null,
+35 verbose parsed url   auth: null,
+35 verbose parsed url   host: null,
+35 verbose parsed url   port: null,
+35 verbose parsed url   hostname: null,
+35 verbose parsed url   hash: null,
+35 verbose parsed url   search: null,
+35 verbose parsed url   query: null,
+35 verbose parsed url   pathname: 'browserify@11.0.0',
+35 verbose parsed url   path: 'browserify@11.0.0',
+35 verbose parsed url   href: 'browserify@11.0.0' }
+36 verbose cache add name="babelify" spec="6.1.3" args=["babelify","6.1.3"]
+37 verbose parsed url { protocol: null,
+37 verbose parsed url   slashes: null,
+37 verbose parsed url   auth: null,
+37 verbose parsed url   host: null,
+37 verbose parsed url   port: null,
+37 verbose parsed url   hostname: null,
+37 verbose parsed url   hash: null,
+37 verbose parsed url   search: null,
+37 verbose parsed url   query: null,
+37 verbose parsed url   pathname: '6.1.3',
+37 verbose parsed url   path: '6.1.3',
+37 verbose parsed url   href: '6.1.3' }
+38 verbose addNamed [ 'babelify', '6.1.3' ]
+39 verbose addNamed [ '6.1.3', '6.1.3' ]
+40 silly lockFile e90fbd15-react-0-13-3 react@0.13.3
+41 verbose lock react@0.13.3 /Users/benl/.npm/e90fbd15-react-0-13-3.lock
+42 silly lockFile d67416ed-babel-5-8-5 babel@5.8.5
+43 verbose lock babel@5.8.5 /Users/benl/.npm/d67416ed-babel-5-8-5.lock
+44 silly lockFile ac724e94-babel-core-5-8-5 babel-core@5.8.5
+45 verbose lock babel-core@5.8.5 /Users/benl/.npm/ac724e94-babel-core-5-8-5.lock
+46 silly lockFile 25034f75-babelify-6-1-3 babelify@6.1.3
+47 verbose lock babelify@6.1.3 /Users/benl/.npm/25034f75-babelify-6-1-3.lock
+48 verbose cache add [ 'del@1.2.0', null ]
+49 verbose cache add name=undefined spec="del@1.2.0" args=["del@1.2.0",null]
+50 verbose parsed url { protocol: null,
+50 verbose parsed url   slashes: null,
+50 verbose parsed url   auth: null,
+50 verbose parsed url   host: null,
+50 verbose parsed url   port: null,
+50 verbose parsed url   hostname: null,
+50 verbose parsed url   hash: null,
+50 verbose parsed url   search: null,
+50 verbose parsed url   query: null,
+50 verbose parsed url   pathname: 'del@1.2.0',
+50 verbose parsed url   path: 'del@1.2.0',
+50 verbose parsed url   href: 'del@1.2.0' }
+51 verbose cache add name="browserify" spec="11.0.0" args=["browserify","11.0.0"]
+52 verbose parsed url { protocol: null,
+52 verbose parsed url   slashes: null,
+52 verbose parsed url   auth: null,
+52 verbose parsed url   host: null,
+52 verbose parsed url   port: null,
+52 verbose parsed url   hostname: null,
+52 verbose parsed url   hash: null,
+52 verbose parsed url   search: null,
+52 verbose parsed url   query: null,
+52 verbose parsed url   pathname: '11.0.0',
+52 verbose parsed url   path: '11.0.0',
+52 verbose parsed url   href: '11.0.0' }
+53 verbose addNamed [ 'browserify', '11.0.0' ]
+54 verbose addNamed [ '11.0.0', '11.0.0' ]
+55 silly lockFile a63c6b8a-browserify-11-0-0 browserify@11.0.0
+56 verbose lock browserify@11.0.0 /Users/benl/.npm/a63c6b8a-browserify-11-0-0.lock
+57 verbose cache add [ 'eslint@0.24.1', null ]
+58 verbose cache add name=undefined spec="eslint@0.24.1" args=["eslint@0.24.1",null]
+59 verbose parsed url { protocol: null,
+59 verbose parsed url   slashes: null,
+59 verbose parsed url   auth: null,
+59 verbose parsed url   host: null,
+59 verbose parsed url   port: null,
+59 verbose parsed url   hostname: null,
+59 verbose parsed url   hash: null,
+59 verbose parsed url   search: null,
+59 verbose parsed url   query: null,
+59 verbose parsed url   pathname: 'eslint@0.24.1',
+59 verbose parsed url   path: 'eslint@0.24.1',
+59 verbose parsed url   href: 'eslint@0.24.1' }
+60 verbose cache add [ 'eslint-plugin-react@3.0.0', null ]
+61 verbose cache add name=undefined spec="eslint-plugin-react@3.0.0" args=["eslint-plugin-react@3.0.0",null]
+62 verbose parsed url { protocol: null,
+62 verbose parsed url   slashes: null,
+62 verbose parsed url   auth: null,
+62 verbose parsed url   host: null,
+62 verbose parsed url   port: null,
+62 verbose parsed url   hostname: null,
+62 verbose parsed url   hash: null,
+62 verbose parsed url   search: null,
+62 verbose parsed url   query: null,
+62 verbose parsed url   pathname: 'eslint-plugin-react@3.0.0',
+62 verbose parsed url   path: 'eslint-plugin-react@3.0.0',
+62 verbose parsed url   href: 'eslint-plugin-react@3.0.0' }
+63 verbose cache add name="del" spec="1.2.0" args=["del","1.2.0"]
+64 verbose parsed url { protocol: null,
+64 verbose parsed url   slashes: null,
+64 verbose parsed url   auth: null,
+64 verbose parsed url   host: null,
+64 verbose parsed url   port: null,
+64 verbose parsed url   hostname: null,
+64 verbose parsed url   hash: null,
+64 verbose parsed url   search: null,
+64 verbose parsed url   query: null,
+64 verbose parsed url   pathname: '1.2.0',
+64 verbose parsed url   path: '1.2.0',
+64 verbose parsed url   href: '1.2.0' }
+65 verbose addNamed [ 'del', '1.2.0' ]
+66 verbose addNamed [ '1.2.0', '1.2.0' ]
+67 silly lockFile b2a4944d-del-1-2-0 del@1.2.0
+68 verbose lock del@1.2.0 /Users/benl/.npm/b2a4944d-del-1-2-0.lock
+69 verbose cache add name="eslint" spec="0.24.1" args=["eslint","0.24.1"]
+70 verbose parsed url { protocol: null,
+70 verbose parsed url   slashes: null,
+70 verbose parsed url   auth: null,
+70 verbose parsed url   host: null,
+70 verbose parsed url   port: null,
+70 verbose parsed url   hostname: null,
+70 verbose parsed url   hash: null,
+70 verbose parsed url   search: null,
+70 verbose parsed url   query: null,
+70 verbose parsed url   pathname: '0.24.1',
+70 verbose parsed url   path: '0.24.1',
+70 verbose parsed url   href: '0.24.1' }
+71 verbose addNamed [ 'eslint', '0.24.1' ]
+72 verbose addNamed [ '0.24.1', '0.24.1' ]
+73 silly lockFile be519808-eslint-0-24-1 eslint@0.24.1
+74 verbose lock eslint@0.24.1 /Users/benl/.npm/be519808-eslint-0-24-1.lock
+75 verbose cache add [ 'exorcist@0.4.0', null ]
+76 verbose cache add name=undefined spec="exorcist@0.4.0" args=["exorcist@0.4.0",null]
+77 verbose parsed url { protocol: null,
+77 verbose parsed url   slashes: null,
+77 verbose parsed url   auth: null,
+77 verbose parsed url   host: null,
+77 verbose parsed url   port: null,
+77 verbose parsed url   hostname: null,
+77 verbose parsed url   hash: null,
+77 verbose parsed url   search: null,
+77 verbose parsed url   query: null,
+77 verbose parsed url   pathname: 'exorcist@0.4.0',
+77 verbose parsed url   path: 'exorcist@0.4.0',
+77 verbose parsed url   href: 'exorcist@0.4.0' }
+78 verbose cache add [ 'gulp@3.9.0', null ]
+79 verbose cache add name=undefined spec="gulp@3.9.0" args=["gulp@3.9.0",null]
+80 verbose parsed url { protocol: null,
+80 verbose parsed url   slashes: null,
+80 verbose parsed url   auth: null,
+80 verbose parsed url   host: null,
+80 verbose parsed url   port: null,
+80 verbose parsed url   hostname: null,
+80 verbose parsed url   hash: null,
+80 verbose parsed url   search: null,
+80 verbose parsed url   query: null,
+80 verbose parsed url   pathname: 'gulp@3.9.0',
+80 verbose parsed url   path: 'gulp@3.9.0',
+80 verbose parsed url   href: 'gulp@3.9.0' }
+81 verbose cache add name="eslint-plugin-react" spec="3.0.0" args=["eslint-plugin-react","3.0.0"]
+82 verbose parsed url { protocol: null,
+82 verbose parsed url   slashes: null,
+82 verbose parsed url   auth: null,
+82 verbose parsed url   host: null,
+82 verbose parsed url   port: null,
+82 verbose parsed url   hostname: null,
+82 verbose parsed url   hash: null,
+82 verbose parsed url   search: null,
+82 verbose parsed url   query: null,
+82 verbose parsed url   pathname: '3.0.0',
+82 verbose parsed url   path: '3.0.0',
+82 verbose parsed url   href: '3.0.0' }
+83 verbose addNamed [ 'eslint-plugin-react', '3.0.0' ]
+84 verbose addNamed [ '3.0.0', '3.0.0' ]
+85 silly lockFile 7b7af11f-eslint-plugin-react-3-0-0 eslint-plugin-react@3.0.0
+86 verbose lock eslint-plugin-react@3.0.0 /Users/benl/.npm/7b7af11f-eslint-plugin-react-3-0-0.lock
+87 verbose cache add name="exorcist" spec="0.4.0" args=["exorcist","0.4.0"]
+88 verbose parsed url { protocol: null,
+88 verbose parsed url   slashes: null,
+88 verbose parsed url   auth: null,
+88 verbose parsed url   host: null,
+88 verbose parsed url   port: null,
+88 verbose parsed url   hostname: null,
+88 verbose parsed url   hash: null,
+88 verbose parsed url   search: null,
+88 verbose parsed url   query: null,
+88 verbose parsed url   pathname: '0.4.0',
+88 verbose parsed url   path: '0.4.0',
+88 verbose parsed url   href: '0.4.0' }
+89 verbose addNamed [ 'exorcist', '0.4.0' ]
+90 verbose addNamed [ '0.4.0', '0.4.0' ]
+91 silly lockFile 99c59b69-exorcist-0-4-0 exorcist@0.4.0
+92 verbose lock exorcist@0.4.0 /Users/benl/.npm/99c59b69-exorcist-0-4-0.lock
+93 verbose cache add [ 'gulp-babel@5.1.0', null ]
+94 verbose cache add name=undefined spec="gulp-babel@5.1.0" args=["gulp-babel@5.1.0",null]
+95 verbose parsed url { protocol: null,
+95 verbose parsed url   slashes: null,
+95 verbose parsed url   auth: null,
+95 verbose parsed url   host: null,
+95 verbose parsed url   port: null,
+95 verbose parsed url   hostname: null,
+95 verbose parsed url   hash: null,
+95 verbose parsed url   search: null,
+95 verbose parsed url   query: null,
+95 verbose parsed url   pathname: 'gulp-babel@5.1.0',
+95 verbose parsed url   path: 'gulp-babel@5.1.0',
+95 verbose parsed url   href: 'gulp-babel@5.1.0' }
+96 verbose cache add [ 'gulp-eslint@0.15.0', null ]
+97 verbose cache add name=undefined spec="gulp-eslint@0.15.0" args=["gulp-eslint@0.15.0",null]
+98 verbose parsed url { protocol: null,
+98 verbose parsed url   slashes: null,
+98 verbose parsed url   auth: null,
+98 verbose parsed url   host: null,
+98 verbose parsed url   port: null,
+98 verbose parsed url   hostname: null,
+98 verbose parsed url   hash: null,
+98 verbose parsed url   search: null,
+98 verbose parsed url   query: null,
+98 verbose parsed url   pathname: 'gulp-eslint@0.15.0',
+98 verbose parsed url   path: 'gulp-eslint@0.15.0',
+98 verbose parsed url   href: 'gulp-eslint@0.15.0' }
+99 verbose cache add [ 'gulp-sourcemaps@1.5.2', null ]
+100 verbose cache add name=undefined spec="gulp-sourcemaps@1.5.2" args=["gulp-sourcemaps@1.5.2",null]
+101 verbose parsed url { protocol: null,
+101 verbose parsed url   slashes: null,
+101 verbose parsed url   auth: null,
+101 verbose parsed url   host: null,
+101 verbose parsed url   port: null,
+101 verbose parsed url   hostname: null,
+101 verbose parsed url   hash: null,
+101 verbose parsed url   search: null,
+101 verbose parsed url   query: null,
+101 verbose parsed url   pathname: 'gulp-sourcemaps@1.5.2',
+101 verbose parsed url   path: 'gulp-sourcemaps@1.5.2',
+101 verbose parsed url   href: 'gulp-sourcemaps@1.5.2' }
+102 verbose request where is /babel
+103 verbose request registry https://registry.npmjs.org/
+104 verbose request id 281f74a0ae02e118
+105 verbose url raw /babel
+106 verbose url resolving [ 'https://registry.npmjs.org/', './babel' ]
+107 verbose url resolved https://registry.npmjs.org/babel
+108 verbose request where is https://registry.npmjs.org/babel
+109 info trying registry request attempt 1 at 10:04:12
+110 http GET https://registry.npmjs.org/babel
+111 verbose cache add name="gulp" spec="3.9.0" args=["gulp","3.9.0"]
+112 verbose parsed url { protocol: null,
+112 verbose parsed url   slashes: null,
+112 verbose parsed url   auth: null,
+112 verbose parsed url   host: null,
+112 verbose parsed url   port: null,
+112 verbose parsed url   hostname: null,
+112 verbose parsed url   hash: null,
+112 verbose parsed url   search: null,
+112 verbose parsed url   query: null,
+112 verbose parsed url   pathname: '3.9.0',
+112 verbose parsed url   path: '3.9.0',
+112 verbose parsed url   href: '3.9.0' }
+113 verbose addNamed [ 'gulp', '3.9.0' ]
+114 verbose addNamed [ '3.9.0', '3.9.0' ]
+115 silly lockFile c2697a61-gulp-3-9-0 gulp@3.9.0
+116 verbose lock gulp@3.9.0 /Users/benl/.npm/c2697a61-gulp-3-9-0.lock
+117 verbose request where is /babel-core
+118 verbose request registry https://registry.npmjs.org/
+119 verbose url raw /babel-core
+120 verbose url resolving [ 'https://registry.npmjs.org/', './babel-core' ]
+121 verbose url resolved https://registry.npmjs.org/babel-core
+122 verbose request where is https://registry.npmjs.org/babel-core
+123 info trying registry request attempt 1 at 10:04:12
+124 http GET https://registry.npmjs.org/babel-core
+125 verbose request where is /babelify
+126 verbose request registry https://registry.npmjs.org/
+127 verbose url raw /babelify
+128 verbose url resolving [ 'https://registry.npmjs.org/', './babelify' ]
+129 verbose url resolved https://registry.npmjs.org/babelify
+130 verbose request where is https://registry.npmjs.org/babelify
+131 info trying registry request attempt 1 at 10:04:12
+132 http GET https://registry.npmjs.org/babelify
+133 verbose cache add name="gulp-babel" spec="5.1.0" args=["gulp-babel","5.1.0"]
+134 verbose parsed url { protocol: null,
+134 verbose parsed url   slashes: null,
+134 verbose parsed url   auth: null,
+134 verbose parsed url   host: null,
+134 verbose parsed url   port: null,
+134 verbose parsed url   hostname: null,
+134 verbose parsed url   hash: null,
+134 verbose parsed url   search: null,
+134 verbose parsed url   query: null,
+134 verbose parsed url   pathname: '5.1.0',
+134 verbose parsed url   path: '5.1.0',
+134 verbose parsed url   href: '5.1.0' }
+135 verbose addNamed [ 'gulp-babel', '5.1.0' ]
+136 verbose addNamed [ '5.1.0', '5.1.0' ]
+137 silly lockFile bec08cf9-gulp-babel-5-1-0 gulp-babel@5.1.0
+138 verbose lock gulp-babel@5.1.0 /Users/benl/.npm/bec08cf9-gulp-babel-5-1-0.lock
+139 verbose cache add name="gulp-eslint" spec="0.15.0" args=["gulp-eslint","0.15.0"]
+140 verbose parsed url { protocol: null,
+140 verbose parsed url   slashes: null,
+140 verbose parsed url   auth: null,
+140 verbose parsed url   host: null,
+140 verbose parsed url   port: null,
+140 verbose parsed url   hostname: null,
+140 verbose parsed url   hash: null,
+140 verbose parsed url   search: null,
+140 verbose parsed url   query: null,
+140 verbose parsed url   pathname: '0.15.0',
+140 verbose parsed url   path: '0.15.0',
+140 verbose parsed url   href: '0.15.0' }
+141 verbose addNamed [ 'gulp-eslint', '0.15.0' ]
+142 verbose addNamed [ '0.15.0', '0.15.0' ]
+143 silly lockFile a94ab99c-gulp-eslint-0-15-0 gulp-eslint@0.15.0
+144 verbose lock gulp-eslint@0.15.0 /Users/benl/.npm/a94ab99c-gulp-eslint-0-15-0.lock
+145 verbose cache add [ 'uglifyify@3.0.1', null ]
+146 verbose cache add name=undefined spec="uglifyify@3.0.1" args=["uglifyify@3.0.1",null]
+147 verbose parsed url { protocol: null,
+147 verbose parsed url   slashes: null,
+147 verbose parsed url   auth: null,
+147 verbose parsed url   host: null,
+147 verbose parsed url   port: null,
+147 verbose parsed url   hostname: null,
+147 verbose parsed url   hash: null,
+147 verbose parsed url   search: null,
+147 verbose parsed url   query: null,
+147 verbose parsed url   pathname: 'uglifyify@3.0.1',
+147 verbose parsed url   path: 'uglifyify@3.0.1',
+147 verbose parsed url   href: 'uglifyify@3.0.1' }
+148 verbose cache add [ 'vinyl-source-stream@1.1.0', null ]
+149 verbose cache add name=undefined spec="vinyl-source-stream@1.1.0" args=["vinyl-source-stream@1.1.0",null]
+150 verbose parsed url { protocol: null,
+150 verbose parsed url   slashes: null,
+150 verbose parsed url   auth: null,
+150 verbose parsed url   host: null,
+150 verbose parsed url   port: null,
+150 verbose parsed url   hostname: null,
+150 verbose parsed url   hash: null,
+150 verbose parsed url   search: null,
+150 verbose parsed url   query: null,
+150 verbose parsed url   pathname: 'vinyl-source-stream@1.1.0',
+150 verbose parsed url   path: 'vinyl-source-stream@1.1.0',
+150 verbose parsed url   href: 'vinyl-source-stream@1.1.0' }
+151 verbose cache add name="gulp-sourcemaps" spec="1.5.2" args=["gulp-sourcemaps","1.5.2"]
+152 verbose parsed url { protocol: null,
+152 verbose parsed url   slashes: null,
+152 verbose parsed url   auth: null,
+152 verbose parsed url   host: null,
+152 verbose parsed url   port: null,
+152 verbose parsed url   hostname: null,
+152 verbose parsed url   hash: null,
+152 verbose parsed url   search: null,
+152 verbose parsed url   query: null,
+152 verbose parsed url   pathname: '1.5.2',
+152 verbose parsed url   path: '1.5.2',
+152 verbose parsed url   href: '1.5.2' }
+153 verbose addNamed [ 'gulp-sourcemaps', '1.5.2' ]
+154 verbose addNamed [ '1.5.2', '1.5.2' ]
+155 silly lockFile b250b45d-gulp-sourcemaps-1-5-2 gulp-sourcemaps@1.5.2
+156 verbose lock gulp-sourcemaps@1.5.2 /Users/benl/.npm/b250b45d-gulp-sourcemaps-1-5-2.lock
+157 verbose request where is /del
+158 verbose request registry https://registry.npmjs.org/
+159 verbose url raw /del
+160 verbose url resolving [ 'https://registry.npmjs.org/', './del' ]
+161 verbose url resolved https://registry.npmjs.org/del
+162 verbose request where is https://registry.npmjs.org/del
+163 info trying registry request attempt 1 at 10:04:12
+164 http GET https://registry.npmjs.org/del
+165 verbose request where is /eslint
+166 verbose request registry https://registry.npmjs.org/
+167 verbose url raw /eslint
+168 verbose url resolving [ 'https://registry.npmjs.org/', './eslint' ]
+169 verbose url resolved https://registry.npmjs.org/eslint
+170 verbose request where is https://registry.npmjs.org/eslint
+171 info trying registry request attempt 1 at 10:04:12
+172 http GET https://registry.npmjs.org/eslint
+173 verbose cache add name="uglifyify" spec="3.0.1" args=["uglifyify","3.0.1"]
+174 verbose parsed url { protocol: null,
+174 verbose parsed url   slashes: null,
+174 verbose parsed url   auth: null,
+174 verbose parsed url   host: null,
+174 verbose parsed url   port: null,
+174 verbose parsed url   hostname: null,
+174 verbose parsed url   hash: null,
+174 verbose parsed url   search: null,
+174 verbose parsed url   query: null,
+174 verbose parsed url   pathname: '3.0.1',
+174 verbose parsed url   path: '3.0.1',
+174 verbose parsed url   href: '3.0.1' }
+175 verbose addNamed [ 'uglifyify', '3.0.1' ]
+176 verbose addNamed [ '3.0.1', '3.0.1' ]
+177 silly lockFile f30b2100-uglifyify-3-0-1 uglifyify@3.0.1
+178 verbose lock uglifyify@3.0.1 /Users/benl/.npm/f30b2100-uglifyify-3-0-1.lock
+179 verbose cache add name="vinyl-source-stream" spec="1.1.0" args=["vinyl-source-stream","1.1.0"]
+180 verbose parsed url { protocol: null,
+180 verbose parsed url   slashes: null,
+180 verbose parsed url   auth: null,
+180 verbose parsed url   host: null,
+180 verbose parsed url   port: null,
+180 verbose parsed url   hostname: null,
+180 verbose parsed url   hash: null,
+180 verbose parsed url   search: null,
+180 verbose parsed url   query: null,
+180 verbose parsed url   pathname: '1.1.0',
+180 verbose parsed url   path: '1.1.0',
+180 verbose parsed url   href: '1.1.0' }
+181 verbose addNamed [ 'vinyl-source-stream', '1.1.0' ]
+182 verbose addNamed [ '1.1.0', '1.1.0' ]
+183 silly lockFile 8ee6baed-vinyl-source-stream-1-1-0 vinyl-source-stream@1.1.0
+184 verbose lock vinyl-source-stream@1.1.0 /Users/benl/.npm/8ee6baed-vinyl-source-stream-1-1-0.lock
+185 verbose request where is /eslint-plugin-react
+186 verbose request registry https://registry.npmjs.org/
+187 verbose url raw /eslint-plugin-react
+188 verbose url resolving [ 'https://registry.npmjs.org/', './eslint-plugin-react' ]
+189 verbose url resolved https://registry.npmjs.org/eslint-plugin-react
+190 verbose request where is https://registry.npmjs.org/eslint-plugin-react
+191 info trying registry request attempt 1 at 10:04:12
+192 http GET https://registry.npmjs.org/eslint-plugin-react
+193 verbose request where is /gulp-babel
+194 verbose request registry https://registry.npmjs.org/
+195 verbose url raw /gulp-babel
+196 verbose url resolving [ 'https://registry.npmjs.org/', './gulp-babel' ]
+197 verbose url resolved https://registry.npmjs.org/gulp-babel
+198 verbose request where is https://registry.npmjs.org/gulp-babel
+199 info trying registry request attempt 1 at 10:04:12
+200 http GET https://registry.npmjs.org/gulp-babel
+201 verbose request where is /gulp-eslint
+202 verbose request registry https://registry.npmjs.org/
+203 verbose url raw /gulp-eslint
+204 verbose url resolving [ 'https://registry.npmjs.org/', './gulp-eslint' ]
+205 verbose url resolved https://registry.npmjs.org/gulp-eslint
+206 verbose request where is https://registry.npmjs.org/gulp-eslint
+207 info trying registry request attempt 1 at 10:04:12
+208 http GET https://registry.npmjs.org/gulp-eslint
+209 verbose request where is /react
+210 verbose request registry https://registry.npmjs.org/
+211 verbose url raw /react
+212 verbose url resolving [ 'https://registry.npmjs.org/', './react' ]
+213 verbose url resolved https://registry.npmjs.org/react
+214 verbose request where is https://registry.npmjs.org/react
+215 info trying registry request attempt 1 at 10:04:12
+216 verbose etag "7X9SWEZG8YSM5KHR1KZ0CH5SU"
+217 http GET https://registry.npmjs.org/react
+218 verbose request where is /gulp-sourcemaps
+219 verbose request registry https://registry.npmjs.org/
+220 verbose url raw /gulp-sourcemaps
+221 verbose url resolving [ 'https://registry.npmjs.org/', './gulp-sourcemaps' ]
+222 verbose url resolved https://registry.npmjs.org/gulp-sourcemaps
+223 verbose request where is https://registry.npmjs.org/gulp-sourcemaps
+224 info trying registry request attempt 1 at 10:04:13
+225 verbose etag "D3KEGO49IE2LCGU0TNB8G26XU"
+226 http GET https://registry.npmjs.org/gulp-sourcemaps
+227 verbose request where is /exorcist
+228 verbose request registry https://registry.npmjs.org/
+229 verbose url raw /exorcist
+230 verbose url resolving [ 'https://registry.npmjs.org/', './exorcist' ]
+231 verbose url resolved https://registry.npmjs.org/exorcist
+232 verbose request where is https://registry.npmjs.org/exorcist
+233 info trying registry request attempt 1 at 10:04:13
+234 verbose etag "B3Z2JHQDMCFG6X4VFAJBT3DBZ"
+235 http GET https://registry.npmjs.org/exorcist
+236 verbose request where is /uglifyify
+237 verbose request registry https://registry.npmjs.org/
+238 verbose url raw /uglifyify
+239 verbose url resolving [ 'https://registry.npmjs.org/', './uglifyify' ]
+240 verbose url resolved https://registry.npmjs.org/uglifyify
+241 verbose request where is https://registry.npmjs.org/uglifyify
+242 info trying registry request attempt 1 at 10:04:13
+243 verbose etag "CJAPPADGK2RIZX8DXUYOF8KJR"
+244 http GET https://registry.npmjs.org/uglifyify
+245 verbose request where is /vinyl-source-stream
+246 verbose request registry https://registry.npmjs.org/
+247 verbose url raw /vinyl-source-stream
+248 verbose url resolving [ 'https://registry.npmjs.org/', './vinyl-source-stream' ]
+249 verbose url resolved https://registry.npmjs.org/vinyl-source-stream
+250 verbose request where is https://registry.npmjs.org/vinyl-source-stream
+251 info trying registry request attempt 1 at 10:04:13
+252 verbose etag "8LDMGHD8CX7367K8MD6CSYKHB"
+253 http GET https://registry.npmjs.org/vinyl-source-stream
+254 verbose request where is /gulp
+255 verbose request registry https://registry.npmjs.org/
+256 verbose url raw /gulp
+257 verbose url resolving [ 'https://registry.npmjs.org/', './gulp' ]
+258 verbose url resolved https://registry.npmjs.org/gulp
+259 verbose request where is https://registry.npmjs.org/gulp
+260 info trying registry request attempt 1 at 10:04:13
+261 verbose etag "2X5ATHA7KRDSCMVJBQXHLHFP7"
+262 http GET https://registry.npmjs.org/gulp
+263 verbose request where is /browserify
+264 verbose request registry https://registry.npmjs.org/
+265 verbose url raw /browserify
+266 verbose url resolving [ 'https://registry.npmjs.org/', './browserify' ]
+267 verbose url resolved https://registry.npmjs.org/browserify
+268 verbose request where is https://registry.npmjs.org/browserify
+269 info trying registry request attempt 1 at 10:04:13
+270 verbose etag "DEIIU8F7P8JBDKC5Z5LKB3RV1"
+271 http GET https://registry.npmjs.org/browserify
+272 http 200 https://registry.npmjs.org/del
+273 silly registry.get cb [ 200,
+273 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+273 silly registry.get     etag: '"6C792YLGHLDSX89JS2LI7EDBQ"',
+273 silly registry.get     'content-type': 'application/json',
+273 silly registry.get     'cache-control': 'max-age=60',
+273 silly registry.get     'content-length': '14048',
+273 silly registry.get     'accept-ranges': 'bytes',
+273 silly registry.get     date: 'Fri, 07 Aug 2015 17:03:33 GMT',
+273 silly registry.get     via: '1.1 varnish',
+273 silly registry.get     age: '0',
+273 silly registry.get     connection: 'keep-alive',
+273 silly registry.get     'x-served-by': 'cache-dfw1832-DFW',
+273 silly registry.get     'x-cache': 'HIT',
+273 silly registry.get     'x-cache-hits': '1',
+273 silly registry.get     'x-timer': 'S1438967013.127645,VS0,VE47',
+273 silly registry.get     vary: 'Accept' } ]
+274 silly lockFile e5f2ed63-stry-npmjs-org-del-del-1-2-0-tgz https://registry.npmjs.org/del/-/del-1.2.0.tgz
+275 verbose lock https://registry.npmjs.org/del/-/del-1.2.0.tgz /Users/benl/.npm/e5f2ed63-stry-npmjs-org-del-del-1-2-0-tgz.lock
+276 verbose addRemoteTarball [ 'https://registry.npmjs.org/del/-/del-1.2.0.tgz',
+276 verbose addRemoteTarball   '3241336ead45a66c8f97215ae223c7e7947401c8' ]
+277 info retry fetch attempt 1 at 10:04:13
+278 verbose fetch to= /var/folders/fs/z7yk58rs41d0d0zprm1cvmdc0000gp/T/npm-91852-8nJf0UmN/registry.npmjs.org/del/-/del-1.2.0.tgz
+279 http GET https://registry.npmjs.org/del/-/del-1.2.0.tgz
+280 http 200 https://registry.npmjs.org/babelify
+281 silly registry.get cb [ 200,
+281 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+281 silly registry.get     etag: '"2INLCKHF8HCEEVGXTZANT8Z73"',
+281 silly registry.get     'content-type': 'application/json',
+281 silly registry.get     'cache-control': 'max-age=60',
+281 silly registry.get     'content-length': '17080',
+281 silly registry.get     'accept-ranges': 'bytes',
+281 silly registry.get     date: 'Fri, 07 Aug 2015 17:03:33 GMT',
+281 silly registry.get     via: '1.1 varnish',
+281 silly registry.get     age: '0',
+281 silly registry.get     connection: 'keep-alive',
+281 silly registry.get     'x-served-by': 'cache-dfw1831-DFW',
+281 silly registry.get     'x-cache': 'HIT',
+281 silly registry.get     'x-cache-hits': '1',
+281 silly registry.get     'x-timer': 'S1438967013.117408,VS0,VE47',
+281 silly registry.get     vary: 'Accept' } ]
+282 silly lockFile ab28b01e--org-babelify-babelify-6-1-3-tgz https://registry.npmjs.org/babelify/-/babelify-6.1.3.tgz
+283 verbose lock https://registry.npmjs.org/babelify/-/babelify-6.1.3.tgz /Users/benl/.npm/ab28b01e--org-babelify-babelify-6-1-3-tgz.lock
+284 verbose addRemoteTarball [ 'https://registry.npmjs.org/babelify/-/babelify-6.1.3.tgz',
+284 verbose addRemoteTarball   '138495febe9b4e9add5967f13829db556a2d958f' ]
+285 info retry fetch attempt 1 at 10:04:13
+286 verbose fetch to= /var/folders/fs/z7yk58rs41d0d0zprm1cvmdc0000gp/T/npm-91852-8nJf0UmN/registry.npmjs.org/babelify/-/babelify-6.1.3.tgz
+287 http GET https://registry.npmjs.org/babelify/-/babelify-6.1.3.tgz
+288 http 200 https://registry.npmjs.org/gulp-babel
+289 silly registry.get cb [ 200,
+289 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+289 silly registry.get     etag: '"37EB6K1F083N5HPTN2MHO4SZV"',
+289 silly registry.get     'content-type': 'application/json',
+289 silly registry.get     'cache-control': 'max-age=60',
+289 silly registry.get     'content-length': '10440',
+289 silly registry.get     'accept-ranges': 'bytes',
+289 silly registry.get     date: 'Fri, 07 Aug 2015 17:03:33 GMT',
+289 silly registry.get     via: '1.1 varnish',
+289 silly registry.get     age: '0',
+289 silly registry.get     connection: 'keep-alive',
+289 silly registry.get     'x-served-by': 'cache-dfw1831-DFW',
+289 silly registry.get     'x-cache': 'MISS',
+289 silly registry.get     'x-cache-hits': '0',
+289 silly registry.get     'x-timer': 'S1438967013.338069,VS0,VE65',
+289 silly registry.get     vary: 'Accept' } ]
+290 silly lockFile 49310bfe--gulp-babel-gulp-babel-5-1-0-tgz https://registry.npmjs.org/gulp-babel/-/gulp-babel-5.1.0.tgz
+291 verbose lock https://registry.npmjs.org/gulp-babel/-/gulp-babel-5.1.0.tgz /Users/benl/.npm/49310bfe--gulp-babel-gulp-babel-5-1-0-tgz.lock
+292 verbose addRemoteTarball [ 'https://registry.npmjs.org/gulp-babel/-/gulp-babel-5.1.0.tgz',
+292 verbose addRemoteTarball   '193990e0ad073a380390fc2e791896e06432c711' ]
+293 info retry fetch attempt 1 at 10:04:13
+294 verbose fetch to= /var/folders/fs/z7yk58rs41d0d0zprm1cvmdc0000gp/T/npm-91852-8nJf0UmN/registry.npmjs.org/gulp-babel/-/gulp-babel-5.1.0.tgz
+295 http GET https://registry.npmjs.org/gulp-babel/-/gulp-babel-5.1.0.tgz
+296 http 200 https://registry.npmjs.org/eslint-plugin-react
+297 silly registry.get cb [ 200,
+297 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+297 silly registry.get     etag: '"415DMAE2YP3I34ZTICRBGATXE"',
+297 silly registry.get     'content-type': 'application/json',
+297 silly registry.get     'cache-control': 'max-age=60',
+297 silly registry.get     'content-length': '56453',
+297 silly registry.get     'accept-ranges': 'bytes',
+297 silly registry.get     date: 'Fri, 07 Aug 2015 17:03:33 GMT',
+297 silly registry.get     via: '1.1 varnish',
+297 silly registry.get     age: '0',
+297 silly registry.get     connection: 'keep-alive',
+297 silly registry.get     'x-served-by': 'cache-dfw1832-DFW',
+297 silly registry.get     'x-cache': 'HIT',
+297 silly registry.get     'x-cache-hits': '1',
+297 silly registry.get     'x-timer': 'S1438967013.265266,VS0,VE63',
+297 silly registry.get     vary: 'Accept' } ]
+298 silly lockFile c81fc252-ct-eslint-plugin-react-3-0-0-tgz https://registry.npmjs.org/eslint-plugin-react/-/eslint-plugin-react-3.0.0.tgz
+299 verbose lock https://registry.npmjs.org/eslint-plugin-react/-/eslint-plugin-react-3.0.0.tgz /Users/benl/.npm/c81fc252-ct-eslint-plugin-react-3-0-0-tgz.lock
+300 verbose addRemoteTarball [ 'https://registry.npmjs.org/eslint-plugin-react/-/eslint-plugin-react-3.0.0.tgz',
+300 verbose addRemoteTarball   'f6b6f5878e689ef478c6abbdf80dc0ca431cd419' ]
+301 info retry fetch attempt 1 at 10:04:13
+302 verbose fetch to= /var/folders/fs/z7yk58rs41d0d0zprm1cvmdc0000gp/T/npm-91852-8nJf0UmN/registry.npmjs.org/eslint-plugin-react/-/eslint-plugin-react-3.0.0.tgz
+303 http GET https://registry.npmjs.org/eslint-plugin-react/-/eslint-plugin-react-3.0.0.tgz
+304 http 200 https://registry.npmjs.org/eslint
+305 silly registry.get cb [ 200,
+305 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+305 silly registry.get     etag: '"4B59MFEGPCJ0VZB44UJFC2UQD"',
+305 silly registry.get     'content-type': 'application/json',
+305 silly registry.get     'cache-control': 'max-age=60',
+305 silly registry.get     'content-length': '148993',
+305 silly registry.get     'accept-ranges': 'bytes',
+305 silly registry.get     date: 'Fri, 07 Aug 2015 17:03:33 GMT',
+305 silly registry.get     via: '1.1 varnish',
+305 silly registry.get     age: '0',
+305 silly registry.get     connection: 'keep-alive',
+305 silly registry.get     'x-served-by': 'cache-dfw1822-DFW',
+305 silly registry.get     'x-cache': 'HIT',
+305 silly registry.get     'x-cache-hits': '1',
+305 silly registry.get     'x-timer': 'S1438967013.127962,VS0,VE47',
+305 silly registry.get     vary: 'Accept' } ]
+306 silly lockFile b5f6b40b-mjs-org-eslint-eslint-0-24-1-tgz https://registry.npmjs.org/eslint/-/eslint-0.24.1.tgz
+307 verbose lock https://registry.npmjs.org/eslint/-/eslint-0.24.1.tgz /Users/benl/.npm/b5f6b40b-mjs-org-eslint-eslint-0-24-1-tgz.lock
+308 verbose addRemoteTarball [ 'https://registry.npmjs.org/eslint/-/eslint-0.24.1.tgz',
+308 verbose addRemoteTarball   '54a50809855b9655721c6f2ee57b351edce28101' ]
+309 info retry fetch attempt 1 at 10:04:13
+310 verbose fetch to= /var/folders/fs/z7yk58rs41d0d0zprm1cvmdc0000gp/T/npm-91852-8nJf0UmN/registry.npmjs.org/eslint/-/eslint-0.24.1.tgz
+311 http GET https://registry.npmjs.org/eslint/-/eslint-0.24.1.tgz
+312 http 200 https://registry.npmjs.org/del/-/del-1.2.0.tgz
+313 silly lockFile e5f2ed63-stry-npmjs-org-del-del-1-2-0-tgz https://registry.npmjs.org/del/-/del-1.2.0.tgz
+314 silly lockFile e5f2ed63-stry-npmjs-org-del-del-1-2-0-tgz https://registry.npmjs.org/del/-/del-1.2.0.tgz
+315 silly lockFile b2a4944d-del-1-2-0 del@1.2.0
+316 silly lockFile b2a4944d-del-1-2-0 del@1.2.0
+317 http 200 https://registry.npmjs.org/babelify/-/babelify-6.1.3.tgz
+318 silly lockFile ab28b01e--org-babelify-babelify-6-1-3-tgz https://registry.npmjs.org/babelify/-/babelify-6.1.3.tgz
+319 silly lockFile ab28b01e--org-babelify-babelify-6-1-3-tgz https://registry.npmjs.org/babelify/-/babelify-6.1.3.tgz
+320 silly lockFile 25034f75-babelify-6-1-3 babelify@6.1.3
+321 silly lockFile 25034f75-babelify-6-1-3 babelify@6.1.3
+322 http 200 https://registry.npmjs.org/babel
+323 silly registry.get cb [ 200,
+323 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+323 silly registry.get     etag: '"6UJSB7PHZ2APCPSPOPZEH1X5X"',
+323 silly registry.get     'content-type': 'application/json',
+323 silly registry.get     'cache-control': 'max-age=60',
+323 silly registry.get     'content-length': '208046',
+323 silly registry.get     'accept-ranges': 'bytes',
+323 silly registry.get     date: 'Fri, 07 Aug 2015 17:03:33 GMT',
+323 silly registry.get     via: '1.1 varnish',
+323 silly registry.get     age: '0',
+323 silly registry.get     connection: 'keep-alive',
+323 silly registry.get     'x-served-by': 'cache-dfw1824-DFW',
+323 silly registry.get     'x-cache': 'HIT',
+323 silly registry.get     'x-cache-hits': '1',
+323 silly registry.get     'x-timer': 'S1438967013.126013,VS0,VE49',
+323 silly registry.get     vary: 'Accept' } ]
+324 silly lockFile 200e54dd--npmjs-org-babel-babel-5-8-5-tgz https://registry.npmjs.org/babel/-/babel-5.8.5.tgz
+325 verbose lock https://registry.npmjs.org/babel/-/babel-5.8.5.tgz /Users/benl/.npm/200e54dd--npmjs-org-babel-babel-5-8-5-tgz.lock
+326 verbose addRemoteTarball [ 'https://registry.npmjs.org/babel/-/babel-5.8.5.tgz',
+326 verbose addRemoteTarball   '4b1d4eac839885ef5d82e74898e05fe83ca2521e' ]
+327 info retry fetch attempt 1 at 10:04:13
+328 verbose fetch to= /var/folders/fs/z7yk58rs41d0d0zprm1cvmdc0000gp/T/npm-91852-8nJf0UmN/registry.npmjs.org/babel/-/babel-5.8.5.tgz
+329 http GET https://registry.npmjs.org/babel/-/babel-5.8.5.tgz
+330 http 200 https://registry.npmjs.org/gulp-sourcemaps
+331 silly registry.get cb [ 200,
+331 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+331 silly registry.get     etag: '"YYC0LKE7Z8H81GY1MDSUAHQU"',
+331 silly registry.get     'content-type': 'application/json',
+331 silly registry.get     'cache-control': 'max-age=60',
+331 silly registry.get     'content-length': '55524',
+331 silly registry.get     'accept-ranges': 'bytes',
+331 silly registry.get     date: 'Fri, 07 Aug 2015 17:03:33 GMT',
+331 silly registry.get     via: '1.1 varnish',
+331 silly registry.get     age: '0',
+331 silly registry.get     connection: 'keep-alive',
+331 silly registry.get     'x-served-by': 'cache-dfw1822-DFW',
+331 silly registry.get     'x-cache': 'HIT',
+331 silly registry.get     'x-cache-hits': '1',
+331 silly registry.get     'x-timer': 'S1438967013.608213,VS0,VE47',
+331 silly registry.get     vary: 'Accept' } ]
+332 http 200 https://registry.npmjs.org/react
+333 silly registry.get cb [ 200,
+333 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+333 silly registry.get     etag: '"9H53M57GR3XYBU2686254WZUL"',
+333 silly registry.get     'content-type': 'application/json',
+333 silly registry.get     'cache-control': 'max-age=60',
+333 silly registry.get     'content-length': '66731',
+333 silly registry.get     'accept-ranges': 'bytes',
+333 silly registry.get     date: 'Fri, 07 Aug 2015 17:03:33 GMT',
+333 silly registry.get     via: '1.1 varnish',
+333 silly registry.get     age: '46',
+333 silly registry.get     connection: 'keep-alive',
+333 silly registry.get     'x-served-by': 'cache-dfw1832-DFW',
+333 silly registry.get     'x-cache': 'HIT',
+333 silly registry.get     'x-cache-hits': '2',
+333 silly registry.get     'x-timer': 'S1438967013.578662,VS0,VE0',
+333 silly registry.get     vary: 'Accept' } ]
+334 silly lockFile 0e8ca91b-cemaps-gulp-sourcemaps-1-5-2-tgz https://registry.npmjs.org/gulp-sourcemaps/-/gulp-sourcemaps-1.5.2.tgz
+335 verbose lock https://registry.npmjs.org/gulp-sourcemaps/-/gulp-sourcemaps-1.5.2.tgz /Users/benl/.npm/0e8ca91b-cemaps-gulp-sourcemaps-1-5-2-tgz.lock
+336 verbose addRemoteTarball [ 'https://registry.npmjs.org/gulp-sourcemaps/-/gulp-sourcemaps-1.5.2.tgz',
+336 verbose addRemoteTarball   '796f6ff695a494215f3d3d66aa7ac853d7e73511' ]
+337 info retry fetch attempt 1 at 10:04:13
+338 verbose fetch to= /var/folders/fs/z7yk58rs41d0d0zprm1cvmdc0000gp/T/npm-91852-8nJf0UmN/registry.npmjs.org/gulp-sourcemaps/-/gulp-sourcemaps-1.5.2.tgz
+339 http GET https://registry.npmjs.org/gulp-sourcemaps/-/gulp-sourcemaps-1.5.2.tgz
+340 silly lockFile 2572284c-npmjs-org-react-react-0-13-3-tgz https://registry.npmjs.org/react/-/react-0.13.3.tgz
+341 verbose lock https://registry.npmjs.org/react/-/react-0.13.3.tgz /Users/benl/.npm/2572284c-npmjs-org-react-react-0-13-3-tgz.lock
+342 verbose addRemoteTarball [ 'https://registry.npmjs.org/react/-/react-0.13.3.tgz',
+342 verbose addRemoteTarball   'a2dfa85335d7dc02b82b482f089582e64cc13356' ]
+343 info retry fetch attempt 1 at 10:04:13
+344 verbose fetch to= /var/folders/fs/z7yk58rs41d0d0zprm1cvmdc0000gp/T/npm-91852-8nJf0UmN/registry.npmjs.org/react/-/react-0.13.3.tgz
+345 http GET https://registry.npmjs.org/react/-/react-0.13.3.tgz
+346 http 200 https://registry.npmjs.org/gulp-eslint
+347 silly registry.get cb [ 200,
+347 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+347 silly registry.get     etag: '"E8VSMVTO23IFBWQLXOMUSZ7AL"',
+347 silly registry.get     'content-type': 'application/json',
+347 silly registry.get     'cache-control': 'max-age=60',
+347 silly registry.get     'content-length': '64044',
+347 silly registry.get     'accept-ranges': 'bytes',
+347 silly registry.get     date: 'Fri, 07 Aug 2015 17:03:33 GMT',
+347 silly registry.get     via: '1.1 varnish',
+347 silly registry.get     age: '0',
+347 silly registry.get     connection: 'keep-alive',
+347 silly registry.get     'x-served-by': 'cache-dfw1831-DFW',
+347 silly registry.get     'x-cache': 'HIT',
+347 silly registry.get     'x-cache-hits': '1',
+347 silly registry.get     'x-timer': 'S1438967013.488144,VS0,VE50',
+347 silly registry.get     vary: 'Accept' } ]
+348 silly lockFile 72a1af34-lp-eslint-gulp-eslint-0-15-0-tgz https://registry.npmjs.org/gulp-eslint/-/gulp-eslint-0.15.0.tgz
+349 verbose lock https://registry.npmjs.org/gulp-eslint/-/gulp-eslint-0.15.0.tgz /Users/benl/.npm/72a1af34-lp-eslint-gulp-eslint-0-15-0-tgz.lock
+350 verbose addRemoteTarball [ 'https://registry.npmjs.org/gulp-eslint/-/gulp-eslint-0.15.0.tgz',
+350 verbose addRemoteTarball   'bce6ac74822f0b0ed41e816f959b2aee16df00bc' ]
+351 info retry fetch attempt 1 at 10:04:13
+352 verbose fetch to= /var/folders/fs/z7yk58rs41d0d0zprm1cvmdc0000gp/T/npm-91852-8nJf0UmN/registry.npmjs.org/gulp-eslint/-/gulp-eslint-0.15.0.tgz
+353 http GET https://registry.npmjs.org/gulp-eslint/-/gulp-eslint-0.15.0.tgz
+354 http 200 https://registry.npmjs.org/babel-core
+355 silly registry.get cb [ 200,
+355 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+355 silly registry.get     etag: '"B3O90RWDEKKGVL1Q15AJGR6EU"',
+355 silly registry.get     'content-type': 'application/json',
+355 silly registry.get     'cache-control': 'max-age=60',
+355 silly registry.get     'content-length': '298260',
+355 silly registry.get     'accept-ranges': 'bytes',
+355 silly registry.get     date: 'Fri, 07 Aug 2015 17:03:33 GMT',
+355 silly registry.get     via: '1.1 varnish',
+355 silly registry.get     age: '18',
+355 silly registry.get     connection: 'keep-alive',
+355 silly registry.get     'x-served-by': 'cache-dfw1824-DFW',
+355 silly registry.get     'x-cache': 'HIT',
+355 silly registry.get     'x-cache-hits': '1',
+355 silly registry.get     'x-timer': 'S1438967013.116519,VS0,VE1',
+355 silly registry.get     vary: 'Accept' } ]
+356 silly lockFile 13855282--babel-core-babel-core-5-8-5-tgz https://registry.npmjs.org/babel-core/-/babel-core-5.8.5.tgz
+357 verbose lock https://registry.npmjs.org/babel-core/-/babel-core-5.8.5.tgz /Users/benl/.npm/13855282--babel-core-babel-core-5-8-5-tgz.lock
+358 verbose addRemoteTarball [ 'https://registry.npmjs.org/babel-core/-/babel-core-5.8.5.tgz',
+358 verbose addRemoteTarball   'f1078042b264792bb4b1cb76d1df0d3e4946296c' ]
+359 info retry fetch attempt 1 at 10:04:13
+360 verbose fetch to= /var/folders/fs/z7yk58rs41d0d0zprm1cvmdc0000gp/T/npm-91852-8nJf0UmN/registry.npmjs.org/babel-core/-/babel-core-5.8.5.tgz
+361 http GET https://registry.npmjs.org/babel-core/-/babel-core-5.8.5.tgz
+362 http 200 https://registry.npmjs.org/gulp-babel/-/gulp-babel-5.1.0.tgz
+363 silly lockFile 49310bfe--gulp-babel-gulp-babel-5-1-0-tgz https://registry.npmjs.org/gulp-babel/-/gulp-babel-5.1.0.tgz
+364 silly lockFile 49310bfe--gulp-babel-gulp-babel-5-1-0-tgz https://registry.npmjs.org/gulp-babel/-/gulp-babel-5.1.0.tgz
+365 silly lockFile bec08cf9-gulp-babel-5-1-0 gulp-babel@5.1.0
+366 silly lockFile bec08cf9-gulp-babel-5-1-0 gulp-babel@5.1.0
+367 http 200 https://registry.npmjs.org/vinyl-source-stream
+368 silly registry.get cb [ 200,
+368 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+368 silly registry.get     etag: '"4H82OJ77UHH0I2CZDJ01B95GW"',
+368 silly registry.get     'content-type': 'application/json',
+368 silly registry.get     'cache-control': 'max-age=60',
+368 silly registry.get     'content-length': '10782',
+368 silly registry.get     'accept-ranges': 'bytes',
+368 silly registry.get     date: 'Fri, 07 Aug 2015 17:03:33 GMT',
+368 silly registry.get     via: '1.1 varnish',
+368 silly registry.get     age: '31',
+368 silly registry.get     connection: 'keep-alive',
+368 silly registry.get     'x-served-by': 'cache-dfw1832-DFW',
+368 silly registry.get     'x-cache': 'HIT',
+368 silly registry.get     'x-cache-hits': '1',
+368 silly registry.get     'x-timer': 'S1438967013.750336,VS0,VE1',
+368 silly registry.get     vary: 'Accept' } ]
+369 silly lockFile b62e7769-am-vinyl-source-stream-1-1-0-tgz https://registry.npmjs.org/vinyl-source-stream/-/vinyl-source-stream-1.1.0.tgz
+370 verbose lock https://registry.npmjs.org/vinyl-source-stream/-/vinyl-source-stream-1.1.0.tgz /Users/benl/.npm/b62e7769-am-vinyl-source-stream-1-1-0-tgz.lock
+371 verbose addRemoteTarball [ 'https://registry.npmjs.org/vinyl-source-stream/-/vinyl-source-stream-1.1.0.tgz',
+371 verbose addRemoteTarball   '44cbe5108205279deb0c5653c094a2887938b1ab' ]
+372 info retry fetch attempt 1 at 10:04:13
+373 verbose fetch to= /var/folders/fs/z7yk58rs41d0d0zprm1cvmdc0000gp/T/npm-91852-8nJf0UmN/registry.npmjs.org/vinyl-source-stream/-/vinyl-source-stream-1.1.0.tgz
+374 http GET https://registry.npmjs.org/vinyl-source-stream/-/vinyl-source-stream-1.1.0.tgz
+375 http 200 https://registry.npmjs.org/uglifyify
+376 silly registry.get cb [ 200,
+376 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+376 silly registry.get     etag: '"9P0WJ4CAK1M2X3HGN1JHWGF4F"',
+376 silly registry.get     'content-type': 'application/json',
+376 silly registry.get     'cache-control': 'max-age=60',
+376 silly registry.get     'content-length': '26644',
+376 silly registry.get     'accept-ranges': 'bytes',
+376 silly registry.get     date: 'Fri, 07 Aug 2015 17:03:33 GMT',
+376 silly registry.get     via: '1.1 varnish',
+376 silly registry.get     age: '0',
+376 silly registry.get     connection: 'keep-alive',
+376 silly registry.get     'x-served-by': 'cache-dfw1822-DFW',
+376 silly registry.get     'x-cache': 'HIT',
+376 silly registry.get     'x-cache-hits': '1',
+376 silly registry.get     'x-timer': 'S1438967013.743604,VS0,VE66',
+376 silly registry.get     vary: 'Accept' } ]
+377 silly lockFile 61b59765-rg-uglifyify-uglifyify-3-0-1-tgz https://registry.npmjs.org/uglifyify/-/uglifyify-3.0.1.tgz
+378 verbose lock https://registry.npmjs.org/uglifyify/-/uglifyify-3.0.1.tgz /Users/benl/.npm/61b59765-rg-uglifyify-uglifyify-3-0-1-tgz.lock
+379 verbose addRemoteTarball [ 'https://registry.npmjs.org/uglifyify/-/uglifyify-3.0.1.tgz',
+379 verbose addRemoteTarball   '89dd6467e3a33875b78c35d81055f5bd21716057' ]
+380 info retry fetch attempt 1 at 10:04:13
+381 verbose fetch to= /var/folders/fs/z7yk58rs41d0d0zprm1cvmdc0000gp/T/npm-91852-8nJf0UmN/registry.npmjs.org/uglifyify/-/uglifyify-3.0.1.tgz
+382 http GET https://registry.npmjs.org/uglifyify/-/uglifyify-3.0.1.tgz
+383 http 200 https://registry.npmjs.org/gulp
+384 silly registry.get cb [ 200,
+384 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+384 silly registry.get     etag: '"DC22RRDUIXBU3V2LXMPUG1IGJ"',
+384 silly registry.get     'content-type': 'application/json',
+384 silly registry.get     'cache-control': 'max-age=60',
+384 silly registry.get     'content-length': '105121',
+384 silly registry.get     'accept-ranges': 'bytes',
+384 silly registry.get     date: 'Fri, 07 Aug 2015 17:03:33 GMT',
+384 silly registry.get     via: '1.1 varnish',
+384 silly registry.get     age: '8',
+384 silly registry.get     connection: 'keep-alive',
+384 silly registry.get     'x-served-by': 'cache-dfw1831-DFW',
+384 silly registry.get     'x-cache': 'HIT',
+384 silly registry.get     'x-cache-hits': '1',
+384 silly registry.get     'x-timer': 'S1438967013.787012,VS0,VE0',
+384 silly registry.get     vary: 'Accept' } ]
+385 silly lockFile af4766b8-ry-npmjs-org-gulp-gulp-3-9-0-tgz https://registry.npmjs.org/gulp/-/gulp-3.9.0.tgz
+386 verbose lock https://registry.npmjs.org/gulp/-/gulp-3.9.0.tgz /Users/benl/.npm/af4766b8-ry-npmjs-org-gulp-gulp-3-9-0-tgz.lock
+387 verbose addRemoteTarball [ 'https://registry.npmjs.org/gulp/-/gulp-3.9.0.tgz',
+387 verbose addRemoteTarball   'cf1fba4cb558bb8c6ae6c9613f583ae2620d214a' ]
+388 info retry fetch attempt 1 at 10:04:14
+389 verbose fetch to= /var/folders/fs/z7yk58rs41d0d0zprm1cvmdc0000gp/T/npm-91852-8nJf0UmN/registry.npmjs.org/gulp/-/gulp-3.9.0.tgz
+390 http GET https://registry.npmjs.org/gulp/-/gulp-3.9.0.tgz
+391 http 200 https://registry.npmjs.org/react/-/react-0.13.3.tgz
+392 http 200 https://registry.npmjs.org/eslint-plugin-react/-/eslint-plugin-react-3.0.0.tgz
+393 silly lockFile c81fc252-ct-eslint-plugin-react-3-0-0-tgz https://registry.npmjs.org/eslint-plugin-react/-/eslint-plugin-react-3.0.0.tgz
+394 silly lockFile c81fc252-ct-eslint-plugin-react-3-0-0-tgz https://registry.npmjs.org/eslint-plugin-react/-/eslint-plugin-react-3.0.0.tgz
+395 silly lockFile 7b7af11f-eslint-plugin-react-3-0-0 eslint-plugin-react@3.0.0
+396 silly lockFile 7b7af11f-eslint-plugin-react-3-0-0 eslint-plugin-react@3.0.0
+397 http 200 https://registry.npmjs.org/eslint/-/eslint-0.24.1.tgz
+398 http 200 https://registry.npmjs.org/gulp-sourcemaps/-/gulp-sourcemaps-1.5.2.tgz
+399 silly lockFile 0e8ca91b-cemaps-gulp-sourcemaps-1-5-2-tgz https://registry.npmjs.org/gulp-sourcemaps/-/gulp-sourcemaps-1.5.2.tgz
+400 silly lockFile 0e8ca91b-cemaps-gulp-sourcemaps-1-5-2-tgz https://registry.npmjs.org/gulp-sourcemaps/-/gulp-sourcemaps-1.5.2.tgz
+401 silly lockFile b250b45d-gulp-sourcemaps-1-5-2 gulp-sourcemaps@1.5.2
+402 silly lockFile b250b45d-gulp-sourcemaps-1-5-2 gulp-sourcemaps@1.5.2
+403 silly lockFile b5f6b40b-mjs-org-eslint-eslint-0-24-1-tgz https://registry.npmjs.org/eslint/-/eslint-0.24.1.tgz
+404 silly lockFile b5f6b40b-mjs-org-eslint-eslint-0-24-1-tgz https://registry.npmjs.org/eslint/-/eslint-0.24.1.tgz
+405 silly lockFile be519808-eslint-0-24-1 eslint@0.24.1
+406 silly lockFile be519808-eslint-0-24-1 eslint@0.24.1
+407 http 200 https://registry.npmjs.org/gulp-eslint/-/gulp-eslint-0.15.0.tgz
+408 silly lockFile 72a1af34-lp-eslint-gulp-eslint-0-15-0-tgz https://registry.npmjs.org/gulp-eslint/-/gulp-eslint-0.15.0.tgz
+409 silly lockFile 72a1af34-lp-eslint-gulp-eslint-0-15-0-tgz https://registry.npmjs.org/gulp-eslint/-/gulp-eslint-0.15.0.tgz
+410 silly lockFile a94ab99c-gulp-eslint-0-15-0 gulp-eslint@0.15.0
+411 silly lockFile a94ab99c-gulp-eslint-0-15-0 gulp-eslint@0.15.0
+412 http 200 https://registry.npmjs.org/vinyl-source-stream/-/vinyl-source-stream-1.1.0.tgz
+413 silly lockFile b62e7769-am-vinyl-source-stream-1-1-0-tgz https://registry.npmjs.org/vinyl-source-stream/-/vinyl-source-stream-1.1.0.tgz
+414 silly lockFile b62e7769-am-vinyl-source-stream-1-1-0-tgz https://registry.npmjs.org/vinyl-source-stream/-/vinyl-source-stream-1.1.0.tgz
+415 silly lockFile 8ee6baed-vinyl-source-stream-1-1-0 vinyl-source-stream@1.1.0
+416 silly lockFile 8ee6baed-vinyl-source-stream-1-1-0 vinyl-source-stream@1.1.0
+417 http 200 https://registry.npmjs.org/babel/-/babel-5.8.5.tgz
+418 silly lockFile 200e54dd--npmjs-org-babel-babel-5-8-5-tgz https://registry.npmjs.org/babel/-/babel-5.8.5.tgz
+419 silly lockFile 200e54dd--npmjs-org-babel-babel-5-8-5-tgz https://registry.npmjs.org/babel/-/babel-5.8.5.tgz
+420 silly lockFile d67416ed-babel-5-8-5 babel@5.8.5
+421 silly lockFile d67416ed-babel-5-8-5 babel@5.8.5
+422 http 200 https://registry.npmjs.org/gulp/-/gulp-3.9.0.tgz
+423 silly lockFile af4766b8-ry-npmjs-org-gulp-gulp-3-9-0-tgz https://registry.npmjs.org/gulp/-/gulp-3.9.0.tgz
+424 silly lockFile af4766b8-ry-npmjs-org-gulp-gulp-3-9-0-tgz https://registry.npmjs.org/gulp/-/gulp-3.9.0.tgz
+425 silly lockFile c2697a61-gulp-3-9-0 gulp@3.9.0
+426 silly lockFile c2697a61-gulp-3-9-0 gulp@3.9.0
+427 http 200 https://registry.npmjs.org/uglifyify/-/uglifyify-3.0.1.tgz
+428 silly lockFile 61b59765-rg-uglifyify-uglifyify-3-0-1-tgz https://registry.npmjs.org/uglifyify/-/uglifyify-3.0.1.tgz
+429 silly lockFile 61b59765-rg-uglifyify-uglifyify-3-0-1-tgz https://registry.npmjs.org/uglifyify/-/uglifyify-3.0.1.tgz
+430 silly lockFile f30b2100-uglifyify-3-0-1 uglifyify@3.0.1
+431 silly lockFile f30b2100-uglifyify-3-0-1 uglifyify@3.0.1
+432 http 200 https://registry.npmjs.org/babel-core/-/babel-core-5.8.5.tgz
+433 http 200 https://registry.npmjs.org/exorcist
+434 silly registry.get cb [ 200,
+434 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+434 silly registry.get     etag: '"DJUEG43WPXBN4DHC28LUYKQI7"',
+434 silly registry.get     'content-type': 'application/json',
+434 silly registry.get     'cache-control': 'max-age=60',
+434 silly registry.get     'content-length': '20030',
+434 silly registry.get     'accept-ranges': 'bytes',
+434 silly registry.get     date: 'Fri, 07 Aug 2015 17:03:33 GMT',
+434 silly registry.get     via: '1.1 varnish',
+434 silly registry.get     age: '0',
+434 silly registry.get     connection: 'keep-alive',
+434 silly registry.get     'x-served-by': 'cache-dfw1824-DFW',
+434 silly registry.get     'x-cache': 'HIT',
+434 silly registry.get     'x-cache-hits': '1',
+434 silly registry.get     'x-timer': 'S1438967013.686955,VS0,VE269',
+434 silly registry.get     vary: 'Accept' } ]
+435 silly lockFile 6dcceb5b--org-exorcist-exorcist-0-4-0-tgz https://registry.npmjs.org/exorcist/-/exorcist-0.4.0.tgz
+436 verbose lock https://registry.npmjs.org/exorcist/-/exorcist-0.4.0.tgz /Users/benl/.npm/6dcceb5b--org-exorcist-exorcist-0-4-0-tgz.lock
+437 verbose addRemoteTarball [ 'https://registry.npmjs.org/exorcist/-/exorcist-0.4.0.tgz',
+437 verbose addRemoteTarball   '1230ffdedd9248f42fbccf8b4a44d4cab29e3c64' ]
+438 info retry fetch attempt 1 at 10:04:15
+439 verbose fetch to= /var/folders/fs/z7yk58rs41d0d0zprm1cvmdc0000gp/T/npm-91852-8nJf0UmN/registry.npmjs.org/exorcist/-/exorcist-0.4.0.tgz
+440 http GET https://registry.npmjs.org/exorcist/-/exorcist-0.4.0.tgz
+441 http 200 https://registry.npmjs.org/browserify
+442 silly registry.get cb [ 200,
+442 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+442 silly registry.get     etag: '"5REJIUO0DXSLSEK07RISUHUT9"',
+442 silly registry.get     'content-type': 'application/json',
+442 silly registry.get     'cache-control': 'max-age=60',
+442 silly registry.get     'content-length': '837186',
+442 silly registry.get     'accept-ranges': 'bytes',
+442 silly registry.get     date: 'Fri, 07 Aug 2015 17:03:33 GMT',
+442 silly registry.get     via: '1.1 varnish',
+442 silly registry.get     age: '0',
+442 silly registry.get     connection: 'keep-alive',
+442 silly registry.get     'x-served-by': 'cache-dfw1824-DFW',
+442 silly registry.get     'x-cache': 'HIT',
+442 silly registry.get     'x-cache-hits': '1',
+442 silly registry.get     'x-timer': 'S1438967013.814077,VS0,VE52',
+442 silly registry.get     vary: 'Accept' } ]
+443 silly lockFile 46616970-browserify-browserify-11-0-0-tgz https://registry.npmjs.org/browserify/-/browserify-11.0.0.tgz
+444 verbose lock https://registry.npmjs.org/browserify/-/browserify-11.0.0.tgz /Users/benl/.npm/46616970-browserify-browserify-11-0-0-tgz.lock
+445 verbose addRemoteTarball [ 'https://registry.npmjs.org/browserify/-/browserify-11.0.0.tgz',
+445 verbose addRemoteTarball   '0b8942ca5fdca24756c3d33e77d8b8a6270df9cb' ]
+446 info retry fetch attempt 1 at 10:04:15
+447 verbose fetch to= /var/folders/fs/z7yk58rs41d0d0zprm1cvmdc0000gp/T/npm-91852-8nJf0UmN/registry.npmjs.org/browserify/-/browserify-11.0.0.tgz
+448 http GET https://registry.npmjs.org/browserify/-/browserify-11.0.0.tgz
+449 http 200 https://registry.npmjs.org/exorcist/-/exorcist-0.4.0.tgz
+450 silly lockFile 6dcceb5b--org-exorcist-exorcist-0-4-0-tgz https://registry.npmjs.org/exorcist/-/exorcist-0.4.0.tgz
+451 silly lockFile 6dcceb5b--org-exorcist-exorcist-0-4-0-tgz https://registry.npmjs.org/exorcist/-/exorcist-0.4.0.tgz
+452 silly lockFile 99c59b69-exorcist-0-4-0 exorcist@0.4.0
+453 silly lockFile 99c59b69-exorcist-0-4-0 exorcist@0.4.0
+454 http 200 https://registry.npmjs.org/browserify/-/browserify-11.0.0.tgz
+455 silly lockFile 46616970-browserify-browserify-11-0-0-tgz https://registry.npmjs.org/browserify/-/browserify-11.0.0.tgz
+456 silly lockFile 46616970-browserify-browserify-11-0-0-tgz https://registry.npmjs.org/browserify/-/browserify-11.0.0.tgz
+457 silly lockFile a63c6b8a-browserify-11-0-0 browserify@11.0.0
+458 silly lockFile a63c6b8a-browserify-11-0-0 browserify@11.0.0
+459 silly lockFile 2572284c-npmjs-org-react-react-0-13-3-tgz https://registry.npmjs.org/react/-/react-0.13.3.tgz
+460 silly lockFile 2572284c-npmjs-org-react-react-0-13-3-tgz https://registry.npmjs.org/react/-/react-0.13.3.tgz
+461 silly lockFile e90fbd15-react-0-13-3 react@0.13.3
+462 silly lockFile e90fbd15-react-0-13-3 react@0.13.3
+463 silly lockFile 13855282--babel-core-babel-core-5-8-5-tgz https://registry.npmjs.org/babel-core/-/babel-core-5.8.5.tgz
+464 silly lockFile 13855282--babel-core-babel-core-5-8-5-tgz https://registry.npmjs.org/babel-core/-/babel-core-5.8.5.tgz
+465 silly lockFile ac724e94-babel-core-5-8-5 babel-core@5.8.5
+466 silly lockFile ac724e94-babel-core-5-8-5 babel-core@5.8.5
+467 error Error: EACCES, mkdir '/Users/benl/.npm/gulp-sourcemaps/1.5.2'
+467 error  { [Error: EACCES, mkdir '/Users/benl/.npm/gulp-sourcemaps/1.5.2']
+467 error   errno: 3,
+467 error   code: 'EACCES',
+467 error   path: '/Users/benl/.npm/gulp-sourcemaps/1.5.2',
+467 error   parent: 'gulp_starter' }
+468 error Please try running this command again as root/Administrator.
+469 error System Darwin 14.4.0
+470 error command "node" "/usr/local/bin/npm" "install"
+471 error cwd /Users/benl/proj/web/gulp_demo
+472 error node -v v0.10.32
+473 error npm -v 1.4.28
+474 error path /Users/benl/.npm/gulp-sourcemaps/1.5.2
+475 error code EACCES
+476 error errno 3
+477 error stack Error: EACCES, mkdir '/Users/benl/.npm/gulp-sourcemaps/1.5.2'
+478 verbose exit [ 3, true ]
