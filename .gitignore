@@ -1,5 +1,7 @@
 node_modules
 lib/
 dist/
+coverage/
 .idea/
+npm-debug.log
 *.map
